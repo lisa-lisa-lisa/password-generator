@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="complexity-check" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Samuel Vawser" />
+    <link rel="stylesheet" href="password-generator.css" type="text/css"/>
+
+
+
+    <title>Complexity Check</title>
+    <script src="javascript/complexity-check.js"></script>
+    <!-- Header -->
+    <div id="header" class="header">
+        <!-- header colour 1 -->
+
+        <div id="header-bg">
+            <img src="reece-1.png" alt="Reece Logo" height="50"/>
+
+        </div>
+        <!-- header colour 2 -->
+        <div id="complexity-title">
+            <h1>Complexity Checker 5000</h1>
+        </div>
+    </div>
+</head>
+
+<body style="text-align:center">
+
+<p>Enter your password here:</p>
+<input type="password" id="check" size="20"/>
+<input type="button" onclick="complex_check()" id="test" value="TEST" class="test-button">
+<!--<input type="button" onclick="complex_check()" id="test" value="Memes"/>-->
+<p id="error"></p>
+<p id="strength"></p>
+<p id="redirect"></p>
+<div id="notbad" style="display: none"><img src="Image%20from%20iOS.gif" alt="Not Bad"/></div>
+
+<h2>Here is the logic we applied to calculate our password strength metric:</h2>
+<p>Length of Password</p> <p>Existence of Numbers/Number of Numbers</p> <p>Existence of Special Character/Number of Special Characters</p> <p>Existence of Capital Letters and Lowercase letters together</p>
+
+<h2>Why Strong Passwords?</h2>
+<p>Cybersecurity is becoming larger and larger of an industry as technology develops further. As more and more companies rely on technologies for day-to-day operations, and they are storing confidential and sensitive information in technological ways, a new type of threat is surfacing, hackers and other cyberthreats.
+
+    Hackers are building increasingly strong and effective ways of cracking passwords every day, and they can access all the information they want about you with your passwords, so it is in your best interest to have a strong password to minimise this cyber risk.
+</p>
+
+<h2>Why Do I need a number/special character/capital letter/etc.</h2>
+<p>One of the most effective ways for hackers to gain access to your accounts is to create automatic scripts that run through all the possible password combinations possible. If your password doesn’t have many characters, or doesn’t contain things like numbers or special characters (e.g. #$$%^Y), then it becomes much easier for them to crack your password. Every extra character and special character you include makes it exponentially harder for a password cracking script to guess your password.</p>
+
+<!--Footer-->
+<div id="footer">
+</div>
+</body>
+</html>
